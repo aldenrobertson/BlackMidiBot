@@ -12,10 +12,6 @@ auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
 
-print('She moves with a purpose')
-user = api.me()
-print (user.screen_name)
-
 LYRICS = open("BlackMidiLyrics.txt", "r")
 counter = 0
 
